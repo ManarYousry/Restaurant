@@ -1,0 +1,687 @@
+:root{
+  --main-color:#fff;
+  --main-bg:#212b36;
+  --main-text-color:#b7b095
+
+}
+@font-face {
+  font-family: "Sacramento";
+  src: url("fonts/Sacramento-Regular.ttf") format("truetype");
+  
+  }
+  @font-face {
+    font-family: "cormorant";
+    src: url("fonts/Cormorant-Regular.ttf") format("truetype");
+    
+    }
+*{  
+    box-sizing: border-box;
+    font-family: cormorant,sans-serif;
+  }
+
+   .navbar-toggler i{
+    color: #fff;
+    font-size:20px;
+  }
+ 
+.main-color{
+  color: var(--main-color)
+}
+.main-text{
+  color: var(--main-text-color)
+}
+.main-bg{
+  background-color: var(--main-bg);
+}
+header{
+  background-image: url("../image/im1.jpg");
+  background-size:cover;
+ 
+}
+ 
+.activ{
+    color: green !important;
+   
+}
+nav.navbar {
+ background-color: transparent;
+ padding: 20px 0 50px 0;
+ font-size: 15px; 
+ z-index: 99;
+transition:0.8s;
+}
+.nav-item{
+ padding:8px ; 
+
+}
+.nav-item .nav-link{
+  color: var(--main-text-color);
+  font-size:15px
+}
+
+
+.nav-link:hover{
+ 
+  color: var(--main-color) !important;
+  cursor: pointer;
+ 
+}
+.nav-link:focus{
+  color:green !important;
+  
+ }
+  .carsol{
+   height:600px !important; 
+ } 
+ 
+ .bd-example{
+   margin-bottom: 100px;
+ }
+/* .carousel-item img{
+  height: 100%;
+} */
+/* section{
+  margin: 100px 0 0 0;
+} */
+h1{
+  font-size: 50px;
+}
+ 
+h3{
+  font-family:"Sacramento" ,cursive;
+  padding: 50px 0 30px 0;
+  font-size:50px;
+  color: var(--main-text-color)
+}
+h4{
+  /* text-decoration:underline; */
+  font-size: 20px;
+  font-weight: bold;
+  color: #807b67;
+}
+h5{
+  font-family: "Sacramento",cursive;
+}
+p{
+  font-size: 16px;
+}
+.picc {
+ padding: 0 15px 0 15px;
+}
+section#menu ,section#pages ,.bac, #pagename ,#plan{
+  background-color:#eeece6;
+}
+.titl{
+  padding-bottom: 50px;
+ }
+ .titl p {
+   overflow: hidden;
+ }
+.sora{
+  border-bottom-left-radius:25px;
+} 
+
+.gal h4, .gal div:last-child{
+  font-size:25px;
+}
+
+div p a{
+   padding: 0 10px 0 15px;
+  font-size: 20px;
+  color:rgb(114, 110, 110) !important;
+ 
+ }
+ .items{
+   margin-bottom: 70px;
+ }
+section#contacts{
+  background-image: url("../image/im1.jpg");
+  background-size:cover;
+  background-position:bottom;
+  margin-bottom: 0 !important;
+}
+address{
+  padding:30px;
+  overflow: hidden;
+  
+}
+.lin1{
+  content: " ";
+  width:100px;
+  height:2px;
+  background-color: var(--main-text-color);
+  margin:10px auto;
+}
+.lin2{
+  content:" ";
+  width:50px;
+  height:2px;
+  background-color: var(--main-text-color);
+  margin:10px auto;
+
+}
+.end {
+  margin: 50px 0 50px 0;
+}
+.con{
+  padding: 30px;
+  height:400px;
+  margin-top: 50px;
+}
+li{
+  list-style: none;
+
+}
+li span{
+  background-color: var(--main-text-color);
+  border-radius: 50%;
+  padding:8px;
+  margin:3px;
+
+}
+
+.icon i{
+  color: var(--main-color);
+  font-size:16px;
+  margin:5px;
+  
+}
+
+.icon i:hover{
+  color: green;
+}
+input#in1{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+[type="date"]{
+  width: 30%;
+  padding: 10px;
+
+}
+.box{
+  padding: 80px 0;
+}
+p{
+  overflow: hidden;
+}
+.r1 {
+  padding: 100px 0;
+}
+section#gallery{
+  background-image: url("../image/bak6.png");
+  background-size:100%;
+}
+.btn-floating i{
+  font-size:40px;
+  margin: 5px;
+}
+.btn i {
+  font-size: 30px;
+}
+.btn span{
+  font-size:18px;
+  margin: 0 5px;
+  font-family: "Sacramento",cursive;
+}
+.card{
+  background-color: rgb(232, 231, 235);
+  box-shadow: 10px 10px 20px var(--main-text-color);
+  border-style: hidden;
+  border-radius: 15px;
+ 
+}
+
+.ll{
+ padding: 7px !important;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+   position: fixed;/* Fixed/sticky position */
+  bottom:50px; /* Place the button at the bottom of the page */
+  right:18px; /* Place the button 25px from the right */
+  z-index: 100; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:green; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px 20px; /* Some padding */
+  border-radius:5px; /* Rounded corners */
+  font-size:30px; /* Increase font size */
+  /* transform: translateZ(0);
+  transition: transform .5s ease; */
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+input:focus , button:focus{
+  outline: none;
+}
+/* 
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+} */
+.bok{
+
+  text-decoration:underline;
+}
+.book{
+  padding: 15px;
+  margin:50px 0; 
+  font-size:30px; 
+ 
+  color: var(--main-bg);
+}
+a.book:hover {
+  text-decoration: none !important;
+  color: green !important;
+  cursor: pointer !important;
+}
+
+.topic li a{
+  padding-right:30px;
+  color:var(--main-text-color);
+  font-size:28px;
+  text-decoration: none;
+}
+.topic li a:hover{
+  text-decoration: none;
+  color: var(--main-bg);
+}
+.act{
+  color: var(--main-bg) !important;
+  text-decoration: underline !important;
+
+}
+
+.List li{ 
+  color: #94938f; 
+  margin: 15px ;
+  font-size:25px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.List li:hover{
+  color: var(--main-bg);
+  text-decoration: underline;
+
+}
+.table-plan tr td{
+  height:200px;
+}
+.hole{
+  width:50px;
+}
+.table-plan td.fr{
+  background-image: url('../image/c111.png');
+  background-repeat: no-repeat;
+  background-size:50% 90%;
+  background-position: center center;
+  width:90px; 
+
+}
+.table-plan td.fr1{
+  background-image: url('../image/cc.png');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-position: center center;
+   width:300px; 
+
+ 
+}
+
+.fr button.first1{
+  position: relative;
+  display: block;
+  width:110px;
+  height:130px;
+  margin: 0 auto;
+  background-color:#d3cfc1;
+  border:2px solid var(--main-bg);
+  border-radius:5px;
+  font-size: 30px;
+  
+}
+.sp{ 
+  position: absolute;
+  left:10px;
+  top:0;
+  font-weight: bold;
+  color: #212b36;
+
+}
+
+button.fst1{
+  position:relative;
+  display:block;
+  background-color:#d3cfc1;
+  border:2px solid var(--main-bg);
+  border-radius:5px;
+  width:60px;
+  height:60px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  right: 0 !important;
+}
+ 
+button.fst2{
+  position:relative;
+  display:block;
+  background-color:#d3cfc1;
+  border:2px solid var(--main-bg);
+  border-radius:5px;
+  width:60px;
+  height:60px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  left:0;
+
+}
+  button.first11{
+  position:relative;
+  background-color:#d3cfc1;
+  border:2px solid var(--main-bg);
+  border-radius:5px;
+  width:60px;
+  height:60px;
+  font-size:20px;
+  margin: 15px;
+ 
+ 
+}
+.dd{
+  padding: 0 30px;
+  margin: 0 auto;
+ 
+ 
+}
+.hol{
+  width: 30px;
+} 
+ td.seco{
+  background-image: url("../image/c1.png");
+  background-repeat: no-repeat;
+  background-size:100% 50%;
+  background-position: center center;
+   width:200px; 
+}
+td.seco1{
+  background-image: url("../image/c2.png");
+  background-repeat: no-repeat;
+  background-size:70% 90%;
+  background-position: center center;
+   width:300px; 
+
+}
+td.seco11{
+  background-image: url("../image/c6.png");
+  background-repeat: no-repeat;
+  background-size:70% 90%;
+  background-position: center center;
+   width:300px; 
+
+}
+
+.table-plan1 tr td{
+  height: 200px;
+}
+button.second{
+  position:relative;
+  display:block;
+  background-color:#d3cfc1;
+  border:2px solid var(--main-bg);
+  border-radius:5px;
+  width:135px;
+  height:110px;
+  font-size: 20px;
+  margin: 0 auto;
+ 
+}
+button.second1{
+  position:relative;
+  display:block;
+  background-color:#d3cfc1;
+  border:2px solid var(--main-bg);
+  border-radius:5px;
+  width:230px;
+  height:130px;
+  font-size: 20px;
+  margin: 0 auto;
+ 
+}
+button.second11{
+  position:relative;
+  display:block;
+  background-color:#d3cfc1;
+  border:2px solid var(--main-bg);
+  border-radius:5px;
+  width:150px;
+  height:380px;
+  font-size: 20px;
+  margin: 0 auto;
+ 
+}
+table tr td button:hover, table tr td button:focus{
+  background-color:#8b8980 !important;
+
+}
+
+.jum2 input , .jum2 textarea{
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding:10px 15px;
+  border: 1px solid  #212b36;
+}
+
+.jum2 a ,.jum1 a{
+
+  display: block;
+  width: 100%;
+  margin: 50px 0 0 0;
+  padding:5px 15px;
+  text-align: center;
+  color: #212b36;
+  font-size: 30px;
+  text-decoration: underline !important;
+
+}
+.jum2 a:hover  ,.jum1 a:hover{
+  color: green !important;
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+
+.jumbotron{
+  display: none;
+  background-color: rgb(253, 252, 252);
+}
+
+.time-show{
+  display: none;
+}
+.piker{
+  cursor: pointer;
+  font-size:20px;
+  color: #212b36;
+}
+
+.carousel-item .piker:focus{
+  color: #94938f;
+  text-decoration: underline;
+}
+output{
+ text-align-last: center;
+  font-size:25px;
+  color: #555;
+  
+}
+label {
+  font-size: 28px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+ background-color: #d3cfc1;
+ color: #fff !important ;
+ font-size: 18px;
+}
+.dropdown-item:hover{
+  background-color: transparent;
+  color:green;
+
+}
+.msg{
+  display: none;
+  padding: 0 0 100px 0;
+}
+.bord{
+  text-align: center;
+  width: 70%;
+  margin:100px auto 0 auto;
+  border:3px dashed green;
+  padding:50px 0 0 0;
+}
+
+.toast{
+  border-radius:12px;
+  color: #d3cfc1;
+  font-size:16px;
+  padding:5px 10px;
+  width:90%;
+  margin: auto;
+  transform:translateY(20px);
+  transition: transform 0.5s ease;
+  display: none;
+
+}
+.toast i{
+  color:red;
+  font-size:15px;
+}
+
+
+
+@media only screen and (max-width:500px) {
+  #myBtn {
+    padding: 8px 12px;
+    font-size:20px;
+    right:20px;
+  }
+}
+
+
+.rowx .card{
+  border-radius:none !important;
+  text-align: center !important;
+  background-color:rgba(0, 0, 0, 0) !important;
+  box-shadow: none !important;
+  margin: 10px 0;
+
+}
+.rowx .card img{
+  width: 100% !important;
+}
+
+.rowx .card .ulst{
+  width: 100px;
+ margin:30px auto;
+ text-align: center;
+
+}
+.rowx .card h6{
+  font-size:20px;
+}
+.rowx .card .ulst ul{
+  padding: 0 !important;
+}
+
+#staff p{
+  font-size:20px;
+ 
+}
+
+.llst{
+ width: 90%;
+ margin:10px auto;
+}
+.llst ul{
+  text-align: center;
+}
+#contct{
+  background-image: url("../image/map.PNG");
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  
+}
+
+.map{
+  background-color: black; 
+  margin:400px auto 180px auto;
+  padding:50px 100px;
+}
+.map .in1 input{
+  padding: 10px;
+}
+.map textarea{
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.map .in1{
+  margin-bottom: 20px;
+}
+.lal{
+  color: #94938f;
+  font-size: 30px;
+  text-decoration: underline;
+ 
+}
+.lal:hover{
+  color: green;
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .map {
+    padding: 50px 50px;
+   
+  }
+}
+
+@media only screen and (min-width:501px) and (max-width:767px) {
+  .map {
+    padding: 50px 30px;
+   
+  }
+}
+@media only screen and (max-width:500px) {
+  .map {
+    padding: 50px 10px;
+   
+  }
+}
